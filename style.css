@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+
+}
+
+body{
+    background-color: #1E2025;
+}
+.container{
+height: 740px;
+width: 550px;
+background-color: #681474;
+position: fixed;  /* con position fixed se mantedra siempre en pagina a donde te muevas*/
+bottom: 20px;
+right: 10px;
+box-shadow: 0px 0px 15px 0px black;
+
+}
+
+.containerP{
+  height: 733px;
+  width: 2432px;
+  background-color: #464A55;
+  position: fixed;
+  bottom: 400px;
+  right: 60px;
+  box-shadow: 0px 0px 15px 0px black;
+  
+  
+  }
+
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+  #menuP{
+    margin: auto;
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .menu{
+      list-style: none;
+      padding: 0;
+      background-color: black;
+      width: 90%;
+      max-width: 100%;
+      margin: auto;
+  }
+
+  .menu li a{
+    background-color: rgb(53, 49, 49);
+        text-decoration: none;
+        color:white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+  }
+  ul, ol{
+    list-style: none;
+  }
+  
+ /* .menu li{
+    display: inline-block;
+    text-align: center;
+}
+  .menu > li{
+      float:left;
+  }
+*/
+
+  .menu li a:hover{
+      background: rgb(117, 25, 117);
+  }
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.menu > li{
+  float:left;
+}
+.menu li:hover > ul{
+  display: block;
+}
+
+
